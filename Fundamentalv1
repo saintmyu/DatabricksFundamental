@@ -1,0 +1,167 @@
+What is true about data stored by Databricks clusters?
+It requires customer-supplied keys and certificates in order to maximize security
+It is stored in the organization’s cloud account(x)
+It is always encrypted without having to worry about key and certificate management
+It is not encrypted since it cannot be accessed by anyone on the outside
+
+The Databricks Lakehouse Platform is built on top of some of the world’s most successful open-source data projects. Which open source projects were originally created by Databricks and come as managed versions in the Databricks Lakehouse Platform?
+Apache Spark, Apache Airflow, Delta Lake
+Apache Spark, Alchemist, MLflow
+Apache Spark, Delta Lake, Redash(x)
+Apache Spark, Apache Airflow, Alchemist
+
+Which scenario would be best tackled using Data Science and Engineering Workspace?
+Tracking and comparing the results of machine learning experiments
+Using Databricks Notebooks to collaborate with team members in a variety of programming languages(x)
+Creating a dashboard that will alert business managers of important changes in daily sales revenue
+Setting up access controls to limit data visibility to a particular group within an organization
+
+What are the primary services that comprise the Databricks Lakehouse Platform?
+Delta Lake, Apache Spark, Databricks Security & Governance
+Unity Catalog, Databricks Notebooks, Databricks Repos
+Databricks SQL, Apache Spark, Delta Lake
+Databricks SQL, Databricks Machine Learning, Databricks Data Science and Data Engineering Workspace(x)
+
+What is the access point to the Databricks Lakehouse platform for data engineers?
+Databricks Delta Lake(x)
+Databricks Machine Learning
+Databricks SQL
+Databricks Data Science and Engineering Workspace
+
+What is the access point to the Databricks Lakehouse platform for business analysts?
+Databricks Machine Learning
+Databricks Delta Lake
+Databricks Data Science and Engineering Workspace
+Databricks SQL(x)
+
+Which statement holistically describes a Lakehouse?
+It is a unified analytics platform used for data management, processing, and analytics(x)
+It is the latest data management paradigm that combines elements from data warehouses and data lakes
+It is a relatively new data management system that stores all data in its raw state
+It is an established data management tool that houses primarily unstructured data
+
+What describes how the Databricks Lakehouse Platform functions within an organization, at a high level?
+Structured, semi-structured, and unstructured data are captured in Delta Lake. The data is then passed to a data lake, where it is given structure and munged for quality. That data is then used by data practitioners for their data use cases.
+A variety of data types land in an organization’s open data lake. Delta Lake augments that data lake by providing structure and governance to that data. That data is then used by data practitioners for their data use cases.(x)
+Real-time data is captured in Delta Lake and ultimately lands in an organization’s data warehouse. That data is then used by data practitioners for their data use cases.
+Streaming data lands in multiple data warehouses. It is filtered through Delta Lake, which determines which data warehouse the data should be kept in. That data is then used by data practitioners for their data use cases.
+
+Delta Lake ensures data quality by enabling an organization to do what?
+Structuring queries to act as if they are performed in a single operation
+Providing access to data to only those who should have access(x)
+Ordering table data
+Applying constraints on the data to ensure that expectations will be met
+
+Delta Lake ensures data governance through Unity Catalog. What does this refer to?
+Enforces access control lists on clusters and notebooks
+Enforces data constraints to satisfy business requirements
+Enforces access control lists on clusters, notebooks, tables and views(x)
+Enforces access control lists on tables and views
+
+One of the key features delivered by the Databricks Lakehouse platform is that data storage is decoupled from compute. What is a direct benefit of decoupling storage from compute?
+Storage costs are decreased since less overhead is expended storing information related to the compute environment
+Compute costs are decreased since less overhead is expended managing storage
+The cost of storage and compute are managed separately and can be scaled to accommodate more concurrent users or larger datasets independently(x)
+Accessing storage is more performant since it can be distributed more freely
+
+Which is true about Databricks?
+It provides organizations with a collaborative platform to work with big data, and is primarily aimed at data engineers, data scientists, data analysts, and machine learning practitioners(x)
+It provides organizations with open data lakes and robust data warehouses, primarily aimed at administrators of big data infrastructure
+It provides organizations with robust data warehouses and is primarily aimed at data engineers and data architects
+It provides organizations with out-of-the-box solutions for managing IT infrastructure and is primarily aimed at IT administrators
+
+What does the Databricks Lakehouse Platform provide to data teams?
+An environment called a Lakehouse, which combines elements from data lakes and EDSS systems
+A completely open-source environment that guarantees seamless integration with the existing tools being used by an organization
+A toolset of compatible, open-source technologies to streamline collaboration among team members, depending on their role
+One centralized user interface so that data practitioners work in the same environment(x)
+
+What defines Delta Lake?
+It is an open protocol for secure real-time exchange of large datasets, which enables secure data sharing across products for the first time
+It is the storage format that data is put into that integrates with all data processing engines used within an organization(x)
+It helps data engineering teams simplify ETL development and management with declarative pipeline development, automatic data testing, and deep visibility for monitoring and recovery
+It is a fine-grained, centralized security model for data lakes across clouds that enables users to share, audit, and manage structured and unstructured data
+
+Which scenario would be best tackled using Databricks SQL?
+Creating a dashboard that will alert business managers of important changes in daily sales revenue(x)
+Setting up access controls to limit data visibility to a particular group within an organization
+Tracking the results of machine learning experiments
+Replacing data silos with a single home for structured, semi-structured, and unstructured data
+
+Where does Databricks Machine Learning fit into the Databricks Lakehouse Platform?
+It is one of the core services of the Lakehouse Platform, tailored towards data practitioners who need to query data and publish visual insights
+It is one of the core services of the Lakehouse Platform, tailored towards data practitioners building and managing machine learning models(x)
+It is one of the core services of the Lakehouse Platform, tailored towards data practitioners who need to manage users and workspace governance
+It is one of the core services of the Lakehouse Platform, tailored towards data practitioners building data pipelines to make data available to everyone in an organization
+
+Which scenario would be best tackled using Databricks Machine Learning?
+Tracking and comparing the results of machine learning experiments.(x)
+Setting up access controls to limit data visibility to a particular group within an organization
+Replacing data silos with a single home for structured, semi-structured, and unstructured data
+Creating a dashboard that will alert business managers of important changes in daily sales revenue
+
+One of the key features delivered by the Databricks Lakehouse platform is support for a wide variety of data. What types of data are supported by Databricks?
+Unstructured and semi-structured
+Semi-structured and structured
+Unstructured and structured
+Unstructured, semi-structured, structured(x)
+
+What does Databricks SQL allow data practitioners to do?
+Build a centralized repository and registry for features, or input variables, for machine learning models
+Use SQL commands to perform ad-hoc and exploratory data analysis on an organization’s data lake(x)
+Explore and develop features to include in machine learning model development
+View all queries and dashboards created within an organization
+
+What is the access point to the Databricks Lakehouse Platform for machine learning practitioners?
+Databricks SQL
+Databricks Delta Lake
+Databricks Machine Learning(x)
+Databricks Data Science and Engineering Workspace
+
+One of the key features delivered by the Databricks Lakehouse platform is data schema enforcement. What describes data schema enforcement?
+It guarantees data freshness by eliminating duplicative data found within a database
+It guarantees data freshness by limiting the data that lands in an organization’s open data lake, based on whether or not it is GDPR compliant
+It ensures data quality by rejecting data ingestion into an organization if a dataset’s metadata doesn’t contain adequate details, as defined by an organization
+It ensures data quality by rejecting writes to a data table that do not match the way that data is structured and organized in that table(x)
+
+Delta Lake improves data performance through indexing. What does this refer to?
+Enforcing data constraints to satisfy business requirements
+Ordering table data to maximize query efficiency(x)
+Structuring queries to act as if they are performed in a single operation
+Ensuring that data can only be accessed by users who should have access
+
+What does Databricks Data Science and Engineering Workspace allow data practitioners to do?
+Build a centralized repository and registry for features, or input variables, for machine learning models
+Use a specialized query interface to view all queries and dashboards created within an organization
+Use MLflow to explore and develop features to include in machine learning model development
+Integrate Databricks notebooks into a CI/CD workflow with Databricks Repos and Databricks Workflows(x)
+
+One of the key features delivered by the Databricks Lakehouse platform is business intelligence (BI) tool support. What describes this, as it relates to Databricks?
+Tools access Databricks through a proxy
+Tools access Databricks through a driver
+Tools that have integrated Databricks support access Databricks directly(x)
+Data is downloaded from Databricks into an intermediate format, then accessed by the tool
+
+Where does Delta Lake fit into the Databricks Lakehouse Platform?
+It works in an organization’s data warehouse to help migrate data into a data lake
+It runs under the hood of the Databricks Lakehouse Platform to power queries run
+It sits on top of an organization’s open data lake and provides structure to the many types of data stored within that data lake(x)
+It works in concert with existing tools to bring auditing and sharing capabilities to data shared across organizations
+
+The Lakehouse was created by combining the most useful elements of which data management strategies?
+EDSS and OLAP systems
+Data lakes and network databases
+Data lakes and data warehouses(x)
+Data warehouses and EDSS systems
+
+Which statement is true about commands run from Databricks Databricks Data Science and Engineering Workspace?
+They are executed in the Databricks control plane
+They are executed by clusters(x)
+They are executed by endpoints
+They are executed by your web browser
+
+The Databricks Lakehouse Platform is built on top of some of the world’s most successful open-source data projects. Which of the following open source projects were originally created by Databricks and come as managed versions in the Databricks Lakehouse Platform?
+Delta Lake, Docker, Cloudera
+Docker, Redash, Cloudera
+MLflow, Redash, GitLab
+Delta Lake, MLflow, Koalas(x)
